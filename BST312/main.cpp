@@ -1,3 +1,7 @@
+//
+// Created by jakea on 11/19/2018.
+//
+
 #include <iostream>
 #include <fstream>
 #include "BST312.h"
@@ -57,6 +61,8 @@ int main() {
     //sampleTree.deleteItem(sample);
     sampleTree.makeEmpty();
     print(sampleTree.postOrderTraversal());
+    print(sampleTree.preOrderTraversal());
+    print(sampleTree.inOrderTraversal());
     cout << "The number of nodes in the tree is  " << sampleTree.countNodes() << endl;
 
 
